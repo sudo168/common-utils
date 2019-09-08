@@ -9,7 +9,7 @@ public class MailPhoneUtils {
     /**
      * 正则表达式：验证手机号
      */
-    private static final Pattern REGEX_MOBILE = Pattern.compile("^((13[0-9])|(14[0-9])|(15[^4,\\D])|(17[0-9])|(18[0,5-9]))\\d{8}$");
+    private static final Pattern REGEX_MOBILE = Pattern.compile("^((13[0-9])|(14[5-9])|(15[^4,\\D])|(16[256])|(17[0-8])|(18[0-9])|(19[1389]))\\d{8}$");
 
     /**
      * 正则表达式：验证邮箱
